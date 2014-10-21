@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A796663119E39AFC004A4942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A796663019E39AFC004A4942 /* main.m */; };
-		A796663419E39AFC004A4942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A796663319E39AFC004A4942 /* AppDelegate.m */; };
-		A796663719E39AFC004A4942 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A796663619E39AFC004A4942 /* ViewController.m */; };
-		A796663A19E39AFC004A4942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A796663819E39AFC004A4942 /* Main.storyboard */; };
 		A796663C19E39AFC004A4942 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A796663B19E39AFC004A4942 /* Images.xcassets */; };
 		A796663F19E39AFC004A4942 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A796663D19E39AFC004A4942 /* LaunchScreen.xib */; };
 		A796664B19E39AFD004A4942 /* StockMarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A796664A19E39AFD004A4942 /* StockMarketTests.m */; };
+		A796666419E39B41004A4942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A796665519E39B41004A4942 /* AppDelegate.m */; };
+		A796666519E39B41004A4942 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A796665619E39B41004A4942 /* Default-568h@2x.png */; };
+		A796666619E39B41004A4942 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A796665719E39B41004A4942 /* Default.png */; };
+		A796666719E39B41004A4942 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A796665819E39B41004A4942 /* Default@2x.png */; };
+		A796666819E39B41004A4942 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A796665919E39B41004A4942 /* InfoPlist.strings */; };
+		A796666919E39B41004A4942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A796665B19E39B41004A4942 /* Main.storyboard */; };
+		A796666B19E39B41004A4942 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A796665F19E39B41004A4942 /* ViewController.m */; };
+		A796666C19E39B41004A4942 /* yql-ios-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A796666019E39B41004A4942 /* yql-ios-Info.plist */; };
+		A796666D19E39B42004A4942 /* YQL.m in Sources */ = {isa = PBXBuildFile; fileRef = A796666319E39B41004A4942 /* YQL.m */; };
+		A7F8F08B19F358A500C2D2BE /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8F08A19F358A500C2D2BE /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +37,26 @@
 		A796662B19E39AFC004A4942 /* StockMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A796662F19E39AFC004A4942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A796663019E39AFC004A4942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A796663219E39AFC004A4942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A796663319E39AFC004A4942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A796663519E39AFC004A4942 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A796663619E39AFC004A4942 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A796663919E39AFC004A4942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A796663B19E39AFC004A4942 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A796663E19E39AFC004A4942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A796664419E39AFC004A4942 /* StockMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A796664919E39AFC004A4942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A796664A19E39AFD004A4942 /* StockMarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockMarketTests.m; sourceTree = "<group>"; };
+		A796665419E39B28004A4942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/AppDelegate.h"; sourceTree = "<group>"; };
+		A796665519E39B41004A4942 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/AppDelegate.m"; sourceTree = "<group>"; };
+		A796665619E39B41004A4942 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/Default-568h@2x.png"; sourceTree = "<group>"; };
+		A796665719E39B41004A4942 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/Default.png"; sourceTree = "<group>"; };
+		A796665819E39B41004A4942 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/Default@2x.png"; sourceTree = "<group>"; };
+		A796665A19E39B41004A4942 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		A796665C19E39B41004A4942 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/en.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		A796665E19E39B41004A4942 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/ViewController.h"; sourceTree = "<group>"; };
+		A796665F19E39B41004A4942 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/ViewController.m"; sourceTree = "<group>"; };
+		A796666019E39B41004A4942 /* yql-ios-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "yql-ios-Info.plist"; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/yql-ios-Info.plist"; sourceTree = "<group>"; };
+		A796666119E39B41004A4942 /* yql-ios-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "yql-ios-Prefix.pch"; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/yql-ios-Prefix.pch"; sourceTree = "<group>"; };
+		A796666219E39B41004A4942 /* YQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YQL.h; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/YQL.h"; sourceTree = "<group>"; };
+		A796666319E39B41004A4942 /* YQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YQL.m; path = "../../PlayTheMarkIt/PlayTheMarkIt/yql-ios/YQL.m"; sourceTree = "<group>"; };
+		A7F8F08919F358A500C2D2BE /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = ../Player.h; sourceTree = "<group>"; };
+		A7F8F08A19F358A500C2D2BE /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = ../Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +98,23 @@
 		A796662D19E39AFC004A4942 /* StockMarket */ = {
 			isa = PBXGroup;
 			children = (
-				A796663219E39AFC004A4942 /* AppDelegate.h */,
-				A796663319E39AFC004A4942 /* AppDelegate.m */,
-				A796663519E39AFC004A4942 /* ViewController.h */,
-				A796663619E39AFC004A4942 /* ViewController.m */,
-				A796663819E39AFC004A4942 /* Main.storyboard */,
+				A7F8F08919F358A500C2D2BE /* Player.h */,
+				A7F8F08A19F358A500C2D2BE /* Player.m */,
+				A796665519E39B41004A4942 /* AppDelegate.m */,
+				A796665619E39B41004A4942 /* Default-568h@2x.png */,
+				A796665719E39B41004A4942 /* Default.png */,
+				A796665819E39B41004A4942 /* Default@2x.png */,
+				A796665919E39B41004A4942 /* InfoPlist.strings */,
+				A796665B19E39B41004A4942 /* Main.storyboard */,
+				A796665E19E39B41004A4942 /* ViewController.h */,
+				A796665F19E39B41004A4942 /* ViewController.m */,
+				A796666019E39B41004A4942 /* yql-ios-Info.plist */,
+				A796663019E39AFC004A4942 /* main.m */,
+				A796666119E39B41004A4942 /* yql-ios-Prefix.pch */,
+				A796666219E39B41004A4942 /* YQL.h */,
+				A796666319E39B41004A4942 /* YQL.m */,
 				A796663B19E39AFC004A4942 /* Images.xcassets */,
+				A796665419E39B28004A4942 /* AppDelegate.h */,
 				A796663D19E39AFC004A4942 /* LaunchScreen.xib */,
 				A796662E19E39AFC004A4942 /* Supporting Files */,
 			);
@@ -97,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				A796662F19E39AFC004A4942 /* Info.plist */,
-				A796663019E39AFC004A4942 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,9 +226,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A796663A19E39AFC004A4942 /* Main.storyboard in Resources */,
 				A796663F19E39AFC004A4942 /* LaunchScreen.xib in Resources */,
+				A796666819E39B41004A4942 /* InfoPlist.strings in Resources */,
 				A796663C19E39AFC004A4942 /* Images.xcassets in Resources */,
+				A796666C19E39B41004A4942 /* yql-ios-Info.plist in Resources */,
+				A796666919E39B41004A4942 /* Main.storyboard in Resources */,
+				A796666719E39B41004A4942 /* Default@2x.png in Resources */,
+				A796666519E39B41004A4942 /* Default-568h@2x.png in Resources */,
+				A796666619E39B41004A4942 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A796663719E39AFC004A4942 /* ViewController.m in Sources */,
-				A796663419E39AFC004A4942 /* AppDelegate.m in Sources */,
+				A796666419E39B41004A4942 /* AppDelegate.m in Sources */,
+				A796666D19E39B42004A4942 /* YQL.m in Sources */,
+				A796666B19E39B41004A4942 /* ViewController.m in Sources */,
 				A796663119E39AFC004A4942 /* main.m in Sources */,
+				A7F8F08B19F358A500C2D2BE /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +278,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A796663819E39AFC004A4942 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A796663919E39AFC004A4942 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A796663D19E39AFC004A4942 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A796663E19E39AFC004A4942 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A796665919E39B41004A4942 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A796665A19E39B41004A4942 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A796665B19E39B41004A4942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A796665C19E39B41004A4942 /* en */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,6 +454,7 @@
 				A796665019E39AFD004A4942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A796665119E39AFD004A4942 /* Build configuration list for PBXNativeTarget "StockMarketTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +463,7 @@
 				A796665319E39AFD004A4942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
