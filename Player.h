@@ -11,7 +11,7 @@
 @interface Player : NSObject
 
 @property NSString *name;
-@property int money;
+@property double money;
 @property NSMutableDictionary *portfolio;
 
 
